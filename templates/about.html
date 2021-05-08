@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title> team-section</title>
+    <style>
+    .team-section
+    {
+        overflow: hidden;
+        padding: 60px;
+        text-align: center;
+        background: #35939B;
+        height: 100%;
+    }
+
+    .team-section h1
+    {
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 60px;
+        font-size: 40px;
+        font-family:arial;
+    }
+    .border
+    {
+        display: block;
+        margin: auto;
+        width: 210px;
+        height: 4px;
+        background: #0261A8;
+        margin-bottom: 40px;
+    }
+    img
+    {
+        display: inline;
+        margin: 0 20px;
+        height: 200px;
+        width: 175px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    h2#p1
+    {
+        display:inline;
+        color: #0715FF;
+        position:relative;
+        left:-75px;
+    }
+    h2#p2
+    {
+        display:inline;
+        color:#FF7807;
+        position:relative;
+        left:85px;
+    }
+    </style>
+</head>
+<body>
+	<div class="team-section">
+		<h1 style="margin-bottom:20px">Our Team</h1>
+		<span class="border"></span>
+		<div class="img">
+			<img src="{% static 'images/pi1.png' %}" alt="">
+			<img src="{% static 'images/pr2.jpg' %}" alt=""><br>
+            <h2 id="p1">Pinal</h2>
+            <h2 id="p2">Pratik</h2>
+		</div>
+    </div>
+</body>
+</html>
