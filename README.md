@@ -21,7 +21,7 @@ LOGIN PAGE
 
 
 
-![trends](https://user-images.githubusercontent.com/83777309/117540796-7d2cbc00-b02e-11eb-8195-e2cf6e5d7616.PNG) <br>
+![trends](https://user-images.githubusercontent.com/83777309/117540796-7d2cbc00-b02e-11eb-8195-e2cf6e5d7616.PNG) <br> <br> <br>
 
 
 ![banners](https://user-images.githubusercontent.com/83777309/117540802-80c04300-b02e-11eb-994e-4f747a78a4ad.PNG)
